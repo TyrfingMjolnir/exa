@@ -54,6 +54,7 @@ impl Options {
         opts.optflag("l", "long",      "display extended details and attributes");
         opts.optflag("R", "recurse",   "recurse into directories");
         opts.optflag("T", "tree",      "recurse into subdirectories in a tree view");
+        opts.optflag("P", "parsable",  "Make parsable output; (T|C)SV, JSON, XML, YAML");
         opts.optflag("x", "across",    "sort multi-column view entries across");
         opts.optopt ("",  "color",     "when to show anything in colours", "WHEN");
         opts.optopt ("",  "colour",    "when to show anything in colours (alternate spelling)", "WHEN");
